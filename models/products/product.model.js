@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+//Product Data
+
 const ProductData = new mongoose.Schema(
   {
     title: { type: String, require: true },
