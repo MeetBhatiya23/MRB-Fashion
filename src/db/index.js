@@ -14,7 +14,6 @@ const ConnectDB = async () => {
     app.listen(process.env.PORT, () => {
       console.log(`Export for http://localhost:${process.env.PORT}`);
     });
-
     console.log(
       `\n MongoDB connect SuccessFully ! ${connectionInstant.connection.host}`
     );
